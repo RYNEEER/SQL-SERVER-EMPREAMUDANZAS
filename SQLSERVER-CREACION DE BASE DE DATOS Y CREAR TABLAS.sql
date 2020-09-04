@@ -21,7 +21,6 @@ hora_Servicio varchar(10),
 constraint PK_SERVICIOS PRIMARY KEY (id_servicios)
 );
 go
-drop table SERVICIO
 -------------------------------------------------------------
 create table VEHICULO(
 id_vehiculo int,
@@ -71,5 +70,5 @@ cargo_del_empleado varchar(20),
 salario int,
 constraint PK_EMPLEADO PRIMARY KEY (id_empleado));
 go
-drop table EMPLEADO
+
 -------------------------------------------------------------
